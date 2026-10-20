@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FF4D training checkpoint comparisons and validation videos.">
+  <title>FF4D experiments</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./">FF4D <span>experiments</span></a>
+    <nav class="tabs" aria-label="Primary navigation">
+      <a href="./" aria-current="page">Home</a>
+      <a href="validation-dpo100/">DPO Validation</a>
+    </nav>
+  </header>
+  <main class="home">
+    <div class="page-heading">
+      <p class="eyebrow">Experiment viewer</p>
+      <h1>Compare training results.</h1>
+      <p class="description">Visual comparisons of FF4D training checkpoints, with synchronized playback.</p>
+    </div>
+    <article class="experiment-card">
+      <div class="card-heading">
+        <div>
+          <p class="eyebrow">DPO · Update 100</p>
+          <h2>Before and after DPO</h2>
+          <p class="description">Ten validation examples. Three views in one video.</p>
+        </div>
+        <a class="button" href="validation-dpo100/">Open comparison <span aria-hidden="true">↗</span></a>
+      </div>
+      <a class="preview-link" href="validation-dpo100/" aria-label="Open the DPO validation comparison">
+        <img src="assets/dpo100-preview.jpg" width="1536" height="294" alt="Horsejump-low comparison: before DPO on the left, DPO with the original layout in the middle, and DPO update 100 on the right.">
+      </a>
+      <div class="card-footer">
+        <span>10 examples</span>
+        <span>DAVIS + Motion324</span>
+        <span>Before DPO → pre-DPO layout → DPO update 100</span>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
